@@ -1,0 +1,231 @@
+body{
+    font-family: 'Times New Roman', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*контейнеры*/
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 93%;
+    margin: 0 auto;
+    background-color: #d9d9d9;
+    height: 100%;
+
+}
+
+.container2 {
+    width: 93%;
+    margin: 0 auto;
+    background-color: #151517;
+    height: 400px;
+}
+
+.container3 {
+    width: 270px;
+    margin: 0 auto;
+    height: 390px;
+    float: left;
+    margin-top:10px;   
+}
+.container4 {
+    width: 600px;
+    margin: 0 auto;
+    height: 390px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: coral;
+}
+
+
+/*строка меню*/
+header { 
+    height: 30px;
+}
+
+.logo {
+    margin-top: 30px;
+    float: left;
+
+}
+
+.icons {
+    float: right;
+    margin-top: 0px;
+}
+
+    .icons li {
+        float: left;
+        display: block;
+        margin-right: 10px;
+    }
+
+i {
+    color: gray;
+}
+
+    i:hover {
+        color: coral;
+    }
+
+
+nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+    .menu li {
+        float: left;
+        display: block;
+        margin-right: 41px;
+    }
+
+        .menu li a {
+            color: #0e1223;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+            .menu li a:hover {
+                color: coral;
+            }
+
+/*секция 1*/
+.section_first {
+    background: url(../img/header2.png) no-repeat center top / cover;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    height: 300px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #d9d9d9;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 110px;
+}
+
+.titles_first {
+    font-size: 15px;
+    color: #d9d9d9;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+/*секция 2*/
+section_second {
+    height: 400px;
+}
+
+
+
+h3 {
+    color: #444444;
+}
+.services_item {
+    width: 270px;
+    text-align: center;
+    display: inline-block;
+    margin-top:60px;
+}
+.services_item p{
+    color:black;;
+}
+
+.services_item:nth-child(3n) {
+    float: left;
+}
+    .services_item:nth-child(3n+2) {
+        float: right;
+    }
+    .services_item:nth-child(3n+1) {
+        margin-left:60px;
+    }
+
+    /*секция 4*/
+section_thert {
+    height: 400px;
+    width: 100%;
+}
+
+.p1 {
+    display: flex;
+    font-size: 14px;
+    color: #d9d9d9;
+}
+.container3:nth-child(1){
+    padding-bottom:5px;
+    float:left;
+}
+.container3:nth-child(2) {
+    padding-bottom: 5px;
+    float: left;
+}
+.nav1 {
+    float: left;
+    margin: 0;
+   float:left;
+}
+.contact a {
+    color: #d9d9d9;
+    font-size:14px;
+}
+.contact p {
+    color: #d9d9d9;
+    font-size: 14px;
+}
+.contact li {
+    display: block;
+}
+
+input {
+    color: #d9d9d9;
+    background-color: #151517;
+    height: 40px;
+    width: 270px;
+    float: left;   
+}
+
+  
+
+
+
+
+    
+
+
+
+   
+ 
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
