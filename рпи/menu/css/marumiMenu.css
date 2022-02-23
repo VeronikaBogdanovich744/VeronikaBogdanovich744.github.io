@@ -1,0 +1,129 @@
+﻿body {
+    font-family: 'Times New Roman', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: dimgray;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+li {
+    display: inline;
+}
+
+.menu li {
+    margin: 15px;
+}
+
+.icons li {
+    margin: 5px;
+}
+
+header, div.menu {
+    width: 70%;
+    margin: 0 auto; /*расположение по центру*/
+  
+    margin-top:20px;
+}
+
+div.menu {
+    margin-top: 0px;
+    margin: 0 auto;
+    height: auto; /**/
+}
+
+
+    a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        height: 0px;
+    }
+
+a:hover {
+    color: coral;
+}
+ 
+/*логотип*/
+.logo {
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+
+div.section {
+    width: 95%;
+    margin: 0 auto; /*расположение по центру*/
+    text-align: center;
+    background-color: #d9d9d9;
+    height:auto;
+
+}
+
+details {
+    background-color: #d9d9d9;
+}
+
+.footer div {
+    background-color: black;
+}
+
+div.header_image {
+    background-image: url(../img/header_menu_8.jpg);
+    height: 600px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 110px;
+}
+
+h2 {
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+summary {
+    font-size: 40px;
+    color: dimgray;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/*Значки блюд*/
+.services_item {
+    width: 270px;
+    top: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+@media (max-width: 800px){
+    .header_image {
+        display: none;
+    }
+
+    header /*nav*/{
+        display: none;
+    }
+
+
+
+
+}
