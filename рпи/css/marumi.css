@@ -1,10 +1,11 @@
-﻿body {
+﻿
+
+body {
     font-family: 'Times New Roman', sans-serif;
 }
 header{
     width:100%;
     height:60px;
-    text-align:center;
 }
 
 section{
@@ -51,10 +52,6 @@ a {
     text-transform: uppercase;
 }
 
-.main {
-    text-align:center;
-} 
-
     a:hover {
         color: #ffcd48;
     }
@@ -76,6 +73,7 @@ h1,h4{
 height:auto;
 background-color:#bbbbbb;
 padding-bottom:60px;
+text-align:center;
 }
 
 .services_item {
@@ -123,7 +121,7 @@ div.left_footer {
 }
 
 div.right_footer {
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 85px;
     width: 640px;
     height:370px;
@@ -177,4 +175,50 @@ input {
 
 .the_end {
     color: #666565;
+}
+
+@media (max-width: 1000px) {
+
+
+    header {
+        height: 100%;
+        text-align:center;
+        background-color:#666565;
+        
+    }
+
+    ul{
+        padding:0;
+    }
+    nav {
+        text-align: center;
+
+    }
+    .menu{
+        margin-left:0px;
+    }
+    .menu li {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: block;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .icons{
+        display:none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    section.footer {
+        display: none;
+    }
 }
