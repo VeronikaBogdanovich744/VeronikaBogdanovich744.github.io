@@ -6,6 +6,7 @@ body {
 header{
     width:100%;
     height:60px;
+    text-align:center;
 }
 
 section{
@@ -17,6 +18,8 @@ div.conteiner{
     margin:0 auto;
     height:100%;
 }
+
+
 
 section.header_block {
     background: url(../img/header0.png) no-repeat center top / cover;
