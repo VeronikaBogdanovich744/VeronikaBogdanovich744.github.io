@@ -14,7 +14,7 @@ header {
 }
 
 .logo{
-    margin-top: 30px;
+    margin-top: 20px;
     float: left;
 }
 
@@ -145,99 +145,21 @@ h3 {
     float: left;
 }
 
-    .services_item:nth-child(3n+2) {
-        margin-left: 50px;
-    }
+.services_item:nth-child(3n+2) {
+    margin-left: 50px;
+}
 
-    .services_item:nth-child(3n+1) {
-        margin-left: 50px;
-    }
-/*Иконки*/
+.services_item:nth-child(3n+1) {
+    margin-left: 50px;
+}
+
+
+    /*Иконки*/
 i {
     color: gray;
 }
 i:hover {
     color: coral;
  }
-
-/*секция 4*/
-/*
-.section_thert .container {
-    background-color: #575b6d;
-    width: 80%;
-    margin: 0 auto;
-    height: 300px;
-}
-.section_thert .container p {
-    color: #d9d9d9;
-}
-
-.container3 {
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 30px;
-    width: 570px;
-    float: left;
-}
-
-.container4 {
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 20px;
-    width: 570px;
-    float: left;
-
-}
-
-.container4 p {
-        display: inline-block;
-        float: left;
-        margin-left: 20px;
-}
-
-input {
-    background-color: #444444;
-    display: inline-block;
-   /* float: left;
-    height: 50px;
-    width: 300px;
-    border-style: solid;
-    border: 40px;
-    border-color: white;
-}*/
-
-
-/* mobile */
-@media (max-width: 800px) {
-    .section_first {
-        height: 0px;
-    }
-
-    .sec {
-        width: 100%;
-    }
-
-    .titles {
-        display: none;
-    }
-
-    details {
-        background-color: #d9d9d9;
-        width: calc(100vw - 100px);
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .sec {
-        width: calc(100vw - 100px);
-        /*text-align: center;*/
-    }
-
-
-
-}
-
-    
-    
 
 
