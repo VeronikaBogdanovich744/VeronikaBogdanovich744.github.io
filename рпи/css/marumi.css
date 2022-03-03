@@ -29,7 +29,6 @@ section.header_block {
     background: url(../img/header0.png) no-repeat center top / cover;
     height: 335px;
 }
-
 /*nav{
   display:inline-block;
   vertical-align:top;
@@ -107,6 +106,10 @@ h3 {
 .icons3 a{
     margin:0;
     text-transform:lowercase;
+}
+
+.icons3{
+    margin: 0;
 }
 
 p{
